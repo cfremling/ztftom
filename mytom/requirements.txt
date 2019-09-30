@@ -1,0 +1,5 @@
+dataclasses
+django
+gunicorn
+tomtoolkit
+django-heroku
