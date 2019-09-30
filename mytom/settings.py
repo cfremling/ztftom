@@ -151,7 +151,6 @@ DATE_FORMAT = 'Y-m-d'
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-DISABLE_COLLECTSTATIC=1
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, '_static')
