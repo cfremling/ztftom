@@ -15,9 +15,9 @@ Including another URLconf
 """
 from django.urls import path, include
 #from django.views.generic import TemplateView
-from .views import AboutView
+from .views import MyCustomTargetListView
 
 urlpatterns = [
     path('', include('tom_common.urls')),
-    path('about/', AboutView.as_view(template_name='about.html'), name='about')
+    path('about/', MyCustomTargetListView.as_view(template_name='about.html'), name='about')
 ]
